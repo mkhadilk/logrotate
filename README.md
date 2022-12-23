@@ -39,3 +39,4 @@ Steps to use-
 7. When needed, call r.Close() to completely close the writer. In that case, all pending writes will be abandoned
   ```go
   r.Close()
+  ```
