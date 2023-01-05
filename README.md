@@ -3,7 +3,7 @@ This is a general purpose file rotator based on size of the each file and limite
 
 It implements io.Writer interface. It spins off one go routine.
 
-The actual writes happen to a 'prefixed file' and then when that reaches the limit, it renames the file chunk to next indexed file. It reinitiat0es the write to original file and repeats itself.
+The actual writes happen to a 'prefixed file' and then when that reaches the limit, it renames the file chunk to next indexed file. It reinitiates the write to original file and repeats itself.
 
 Steps to use-
 
